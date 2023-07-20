@@ -6,7 +6,7 @@ clock = pygame.time.Clock()
 info = pygame.display.Info() 
 monitorx, monitory = info.current_w, info.current_h
 fps = 300
-count = 0
+
 BLACK = ( 0, 0, 0) 
 screen = pygame.display.set_mode((monitorx, monitory), pygame.FULLSCREEN) 
 
